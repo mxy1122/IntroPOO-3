@@ -1,62 +1,58 @@
-# IntroPOO-3
+# 🧠 Encapsulamiento en Java – Ejercicios prácticos
 
-# Video 1
-🔐 Encapsulamiento en Programación Orientada a Objetos
-Este proyecto explica el concepto de encapsulamiento en la programación orientada a objetos mediante un ejemplo práctico de una cuenta bancaria ficticia. Se utiliza una clase que representa una cuenta con los siguientes atributos:
+Este repositorio contiene ejemplos prácticos y explicaciones sobre el concepto de **encapsulamiento** en programación orientada a objetos con Java, usando como base tres videos educativos.
 
-CBU: Clave Bancaria Uniforme (privado)
+---
 
-saldo: Monto disponible (privado)
+### 🔐 1. Encapsulamiento con Ejemplo Bancario
 
-alias: Nombre personalizado de la cuenta (público o con acceso controlado)
+Este video explica el concepto de **encapsulamiento** mediante una **cuenta bancaria ficticia** que incluye los siguientes atributos:
 
-El video muestra cómo estos atributos se protegen mediante modificadores de acceso (private, public, etc.) y cómo se gestionan mediante métodos getters y setters, asegurando así que el acceso a los datos sensibles esté controlado.
+- `CBU`: Clave Bancaria Uniforme (privado)
+- `saldo`: Monto disponible (privado)
+- `alias`: Nombre personalizado de la cuenta (público o con acceso controlado)
 
-🔍 Este ejemplo es ideal para comprender:
+Se demuestra cómo proteger estos atributos con modificadores de acceso (`private`, `public`) y cómo acceder a ellos de forma segura usando métodos `getters` y `setters`.
 
-Cómo evitar el acceso directo a los datos internos de una clase.
+🔍 Ideal para comprender:
+- Cómo proteger información sensible.
+- Por qué no se debe acceder directamente a los atributos de una clase.
+- Buenas prácticas en diseño orientado a objetos.
 
-Por qué es importante proteger la información crítica.
+---
 
-Cómo aplicar buenas prácticas de diseño orientado a objetos.
+### 🛠️ 2. Getters y Setters en Java con NetBeans
 
-#Video 2
+Este video se enfoca en cómo implementar **getters y setters**, explicando:
 
-🛠️ Getters y Setters en Java con NetBeans
-El segundo video se enfoca en la implementación de métodos getters y setters, fundamentales para aplicar encapsulamiento correctamente en Java.
+- Qué son y para qué se usan.
+- Cómo permiten acceder de forma controlada a atributos privados.
+- Cómo generarlos automáticamente con **NetBeans IDE** para facilitar el desarrollo.
 
-Se explica paso a paso:
+💡 Es útil para aprender:
+- A manipular atributos privados sin romper el encapsulamiento.
+- A aprovechar el entorno de desarrollo para agilizar el código.
 
-Qué son los getters y setters.
+---
 
-Cómo permiten el acceso controlado a los atributos privados de una clase.
+### 🔓 3. Modificadores de Acceso: Públicos vs Privados
 
-Cómo generarlos automáticamente usando NetBeans IDE para agilizar el desarrollo.
+El tercer video aborda los **modificadores de acceso** (`public`, `private`) y sus implicancias:
 
-💡 Este contenido es útil para:
+- Los **atributos privados** no pueden ser accedidos directamente desde fuera de la clase.
+- Se necesitan **métodos públicos** para permitir el acceso indirecto (como los getters).
+- Si un **método también es privado**, no podrá ser utilizado desde fuera, bloqueando el acceso a los datos.
 
-Comprender cómo manipular atributos privados sin romper el principio de encapsulamiento.
+🔐 Este video refuerza la importancia de:
+- Diseñar clases seguras y controladas.
+- Exponer solo lo necesario.
+- Mantener la lógica interna protegida.
 
-Aprender a usar herramientas del IDE para trabajar más eficientemente.
+---
 
-#Video 3
+### Herramientas Necesarias
 
-🔓 Modificadores de Acceso: Público vs Privado
-El tercer video analiza las diferencias entre atributos públicos y privados, y cómo estas decisiones afectan la forma en que interactuamos con los datos de una clase.
-
-Se explica que:
-
-Los atributos privados no pueden ser accedidos directamente desde fuera de la clase.
-
-Los métodos públicos (como getters y setters) permiten acceder a esos atributos de forma controlada.
-
-Si un método también se declara como privado, no puede ser utilizado desde fuera de la clase, lo cual impide el acceso a los valores encapsulados.
-
-🔐 Este video refuerza el concepto de encapsulamiento mostrando:
-
-Cómo los modificadores de acceso (public, private) determinan la visibilidad y seguridad de los elementos de una clase.
-
-Por qué es importante exponer solo lo necesario y proteger la lógica interna.
+Java jdk 17 , Netbeans IDE y conocer de  POO
 
 
 
